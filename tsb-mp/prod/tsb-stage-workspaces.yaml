@@ -23,3 +23,4 @@ spec:
     tsb:
       org: tetrate
       tenant: fluxprod
+      appNamespace: fluxprod-httpbin
