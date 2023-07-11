@@ -3,12 +3,12 @@ entries:
   tsb-app-onboarding:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-10T21:34:45.553452-04:00"
+    created: "2023-07-10T21:55:41.4096-04:00"
     description: A Helm chart for Kubernetes
-    digest: 11e4068acbaf76164804399950c485e6ebed3c75fc42a2ee726704237227c2b2
+    digest: 99067560e780f0aeae7cc5955e8bdc324e2143f3b3cde6ff820e959f8e6cdf03
     name: tsb-app-onboarding
     type: application
     urls:
-    - https://shamusx.github.io/expert-fishstick/tsb-app-onboarding-0.1.0.tgz
+    - https://shamusx.github.io/bookish-system/tsb-app-onboarding-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-10T21:34:45.553083-04:00"
+generated: "2023-07-10T21:55:41.408788-04:00"
