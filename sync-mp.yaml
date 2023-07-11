@@ -4,7 +4,7 @@ metadata:
   name: fluxprod-tsb
 spec:
   interval: 1m
-  url: https://shamusx.github.io/bookish-system
+  url: https://github.com/shamusx/bookish-system
   ref:
     branch: main
 ---
