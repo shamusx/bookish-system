@@ -3,4 +3,4 @@ kind: Kustomization
 namespace: flux-tsb-config
 resources:
   - tenants.yaml
-  - sync.yaml
+  - tsb-stage-workspaces.yaml
