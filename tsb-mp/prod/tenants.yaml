@@ -1,0 +1,10 @@
+---
+apiVersion: tsb.tetrate.io/v2
+kind: Tenant
+metadata:
+  name: fluxprod
+  annotations:
+    tsb.tetrate.io/organization: tetrate
+spec:
+  displayName: fluxprod
+  description: fluxprod

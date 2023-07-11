@@ -1,0 +1,25 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: tsb-helm-bookish
+spec:
+  interval: 1m0s
+  url: https://shamusx.github.io/bookish-system
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: tsb-httpbin
+spec:
+  targetNamespace: flux-tsb-config
+  chart:
+    spec:
+      chart: tsb-app-onboarding
+      sourceRef:
+        kind: HelmRepository
+        name: tsb-helm-bookish
+  interval: 1m0s
+  values:
+    tsb:
+      org: tetrate
+      tenant: fluxprod
