@@ -1,2 +1,1 @@
-# expert-fishstick
 # bookish-system
