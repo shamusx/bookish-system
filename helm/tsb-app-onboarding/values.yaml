@@ -4,3 +4,4 @@
 tsb:
   org: tetrate
   tenant: dev
+  appNamespace: httpbin

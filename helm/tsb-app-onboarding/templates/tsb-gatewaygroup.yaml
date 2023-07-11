@@ -14,4 +14,4 @@ spec:
   displayName: {{ .Release.Name }}-gg
   namespaceSelector:
     names:
-    - "*/{{ .Release.Namespace }}"
+    - "*/{{ $tsb.appNamespace }}"

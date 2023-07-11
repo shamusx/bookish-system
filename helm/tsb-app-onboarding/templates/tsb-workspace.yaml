@@ -12,5 +12,5 @@ spec:
   displayName: {{ .Release.Name }}-{{ .Values.operation }}-ws
   namespaceSelector:
     names:
-    - "*/{{ .Release.Namespace }}"
+    - "*/{{ $tsb.appNamespace }}"
   privileged: false
