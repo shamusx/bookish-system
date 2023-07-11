@@ -1,0 +1,8 @@
+# kustomization.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: fluxprod-httpbin
+resources:
+- https://raw.githubusercontent.com/istio/istio/master/samples/httpbin/httpbin.yaml
+- httpbin-ig.yaml
+- httpbin-cert.yaml
